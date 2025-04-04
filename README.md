@@ -94,6 +94,7 @@ systemctl status elasticsearch
 ```bash
 curl -XGET https://localhost:9200 -u elastic:<elastic_password> -k
 ```
+<img width="793" alt="Image" src="https://github.com/user-attachments/assets/aeb245b4-bda8-4efe-bb51-f1b5bd32b711" />
 
 ## Step 8: Add Wazuh Repository
 ```bash
