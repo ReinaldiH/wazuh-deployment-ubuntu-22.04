@@ -45,6 +45,11 @@ apt-get install elasticsearch=7.17.12
 ```bash
 curl -so /etc/elasticsearch/elasticsearch.yml https://packages.wazuh.com/4.5/tpl/elastic-basic/elasticsearch_all_in_one.yml
 ```
+<img width="671" alt="Image" src="https://github.com/user-attachments/assets/91128090-5888-4542-9b20-0f2f11bbf61d" />
+
+<img width="783" alt="Image" src="https://github.com/user-attachments/assets/5b460a6e-42d5-4da6-a7c6-4a57855e794b" />
+
+<img width="805" alt="Image" src="https://github.com/user-attachments/assets/6d0b5ddb-fb91-496a-9478-715c6b3e5576" />
 
 ## Step 4: Generate and Configure Elasticsearch Certificates
 ```bash
