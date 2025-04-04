@@ -103,6 +103,11 @@ curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | gpg --no-default-keyring 
 ```bash
 echo "deb [signed-by=/usr/share/keyrings/wazuh.gpg] https://packages.wazuh.com/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/wazuh.list
 ```
+<img width="803" alt="Image" src="https://github.com/user-attachments/assets/919d1359-acec-4e1b-96d4-513ddb0bf1ad" />
+
+
+<img width="801" alt="Image" src="https://github.com/user-attachments/assets/bb305a3a-4375-4cb7-9720-f075ba353e90" />
+
 
 ## Step 9: Install and Start Wazuh Manager
 ```bash
