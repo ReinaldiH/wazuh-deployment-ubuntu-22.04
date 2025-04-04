@@ -33,6 +33,9 @@ curl -s https://artifacts.elastic.co/GPG-KEY-elasticsearch | gpg --no-default-ke
 ```bash
 echo "deb [signed-by=/usr/share/keyrings/elasticsearch.gpg] https://artifacts.elastic.co/packages/7.x/apt stable main" | tee /etc/apt/sources.list.d/elastic-7.x.list
 ```
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/44577e7a-b0ae-4263-a05b-f965067bf66c" />
+
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/0e393394-538d-4284-94d7-403f8f03305f" />
 
 ## Step 3: Install Elasticsearch
 ```bash
