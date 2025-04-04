@@ -190,3 +190,17 @@ systemctl daemon-reload
 systemctl enable kibana
 systemctl start kibana
 systemctl status kibana
+```
+
+<img width="733" alt="Image" src="https://github.com/user-attachments/assets/0f06646b-6429-495c-9c80-31a6fa23498d" />
+
+<img width="797" alt="Image" src="https://github.com/user-attachments/assets/7cf2c1de-8ed9-4934-bc61-e6bbb80cda5a" />
+
+<img width="805" alt="Image" src="https://github.com/user-attachments/assets/49f5b038-5cc8-4e11-9914-535fb43c42e5" />
+
+<img width="799" alt="Image" src="https://github.com/user-attachments/assets/d3ab1637-5052-4a85-b57b-f357fe23ed86" />
+
+<img width="517" alt="Image" src="https://github.com/user-attachments/assets/3d1ec7c6-5031-4a58-aea2-5adac26c9154" />
+
+
+
