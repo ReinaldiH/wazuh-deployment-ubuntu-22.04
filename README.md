@@ -8,7 +8,6 @@
 
 This guide provides step-by-step instructions for deploying Wazuh Server version 4.2 on an Ubuntu 20 system to monitor a Windows 10 agent.
 
-<img width="1668" alt="Image" src="https://github.com/user-attachments/assets/4f0e900c-5325-4660-bf10-27ca6896446b" />
 
 ---  
 ## Prerequisites
@@ -23,6 +22,9 @@ sudo su
 apt-get update
 apt-get install apt-transport-https zip unzip lsb-release curl gnupg
 ```
+<img width="743" alt="Image" src="https://github.com/user-attachments/assets/74a3cc12-bedf-46e1-8626-39892defb49f" />
+
+<img width="796" alt="Image" src="https://github.com/user-attachments/assets/293b046b-9dcf-42f7-9568-fa9b17e311c2" />
 
 ## Step 2: Add Elasticsearch Repository
 ```bash
