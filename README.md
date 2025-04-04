@@ -65,6 +65,13 @@ chmod -R 500 /etc/elasticsearch/certs
 chmod 400 /etc/elasticsearch/certs/ca/ca.* /etc/elasticsearch/certs/elasticsearch.*
 rm -rf ~/certs/ ~/certs.zip
 ```
+<img width="799" alt="Image" src="https://github.com/user-attachments/assets/f984fc64-7265-440a-b224-0a428719dba1" />
+
+<img width="802" alt="Image" src="https://github.com/user-attachments/assets/f60b4d50-c060-4a4d-97e9-931b51027265" />
+
+<img width="579" alt="Image" src="https://github.com/user-attachments/assets/a09d52de-9f20-44ef-a555-59e63d928ad7" />
+
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/a4e290a3-29a0-4cdf-840e-a3f52d6fe190" />
 
 ## Step 5: Start Elasticsearch Service
 ```bash
