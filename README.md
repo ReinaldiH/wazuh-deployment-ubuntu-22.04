@@ -8,8 +8,7 @@
 
 This guide provides step-by-step instructions for deploying Wazuh Server version 4.2 on an Ubuntu 20 system to monitor a Windows 10 agent.
 
-https://private-user-images.githubusercontent.com/203904847/430372022-def787de-2f30-400f-b68e-3827b2316e5f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM3NjkwNTIsIm5iZiI6MTc0Mzc2ODc1MiwicGF0aCI6Ii8yMDM5MDQ4NDcvNDMwMzcyMDIyLWRlZjc4N2RlLTJmMzAtNDAwZi1iNjhlLTM4MjdiMjMxNmU1Zi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwNFQxMjEyMzJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iYzg2YjY5NTJmOGQ5ZTU5YTY4MjcwOWU4MjZmNjUzMzc5ZGM5MmJkYzZjMjQzNGYyNTY5NWNjZDYzMjViZDMwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ap-OQK8eWbB1uCocF6tTA08iulTgHhCzuQth5MW7yjA
-
+<img width="1668" alt="Image" src="https://github.com/user-attachments/assets/4f0e900c-5325-4660-bf10-27ca6896446b" />
 
 ---  
 ## Prerequisites
