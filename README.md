@@ -120,9 +120,9 @@ systemctl status wazuh-manager
 ```
 <img width="789" alt="Image" src="https://github.com/user-attachments/assets/5109d1dd-82fd-415a-892c-6869c57426d7" />
 
-<img width="798" alt="Image" src="https://github.com/user-attachments/assets/8fd50c81-b043-4ca0-a4b6-af2b7f1f86c5" />
-
 <img width="729" alt="Image" src="https://github.com/user-attachments/assets/6c199965-106b-4a50-982f-3234c5199afb" />
+
+<img width="798" alt="Image" src="https://github.com/user-attachments/assets/8fd50c81-b043-4ca0-a4b6-af2b7f1f86c5" />
 
 <img width="804" alt="Image" src="https://github.com/user-attachments/assets/ed7c0225-47fb-4842-94a9-26d506dff6a6" />
 
