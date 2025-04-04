@@ -80,6 +80,9 @@ systemctl enable elasticsearch
 systemctl start elasticsearch
 systemctl status elasticsearch
 ```
+<img width="798" alt="Image" src="https://github.com/user-attachments/assets/3a9daa6e-fd2b-4524-ba77-35a7d65ec4ab" />
+
+<img width="800" alt="Image" src="https://github.com/user-attachments/assets/a945251e-1b16-4fb5-a0e9-949017df2a49" />
 
 ## Step 6: Set Up Elasticsearch Passwords
 ```bash
