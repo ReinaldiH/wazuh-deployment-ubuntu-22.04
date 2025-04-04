@@ -150,6 +150,19 @@ systemctl start filebeat
 filebeat test output
 ```
 
+<img width="752" alt="Image" src="https://github.com/user-attachments/assets/6524149c-12a8-4502-8722-c247eaabfb8a" />
+
+<img width="805" alt="Image" src="https://github.com/user-attachments/assets/df554488-623e-4197-a6d7-ddc179d0152a" />
+
+<img width="799" alt="Image" src="https://github.com/user-attachments/assets/e2b3b1cd-3a31-4529-b527-7ded74e5266d" />
+
+<img width="712" alt="Image" src="https://github.com/user-attachments/assets/ea44ec3b-2d40-4fdf-88d4-277a24ba3a71" />
+
+<img width="804" alt="Image" src="https://github.com/user-attachments/assets/0801766f-8065-49a9-937f-c826642991af" />
+
+<img width="807" alt="Image" src="https://github.com/user-attachments/assets/79308511-163d-48e7-ab3f-6c8e29b5533c" />
+
+
 ## Step 11: Install and Configure Kibana
 ```bash
 apt-get install kibana=7.17.12
