@@ -88,6 +88,7 @@ systemctl status elasticsearch
 ```bash
 /usr/share/elasticsearch/bin/elasticsearch-setup-passwords auto
 ```
+<img width="804" alt="Image" src="https://github.com/user-attachments/assets/be0951ef-ddb9-4c08-ad44-a6d3964a4e21" />
 
 ## Step 7: Verify Elasticsearch Installation
 ```bash
