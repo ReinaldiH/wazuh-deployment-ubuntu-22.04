@@ -8,21 +8,24 @@ Whether you're building a home lab to dive deeper into SIEM, get hands-on with l
 
 Here’s what we’ll cover:
 
-Installing Elasticsearch to store and index logs
-Setting up Filebeat to ship logs from Wazuh to Elasticsearch
-Installing Kibana to visualize everything in one clean dashboard
-Deploying Wazuh as the core of your SIEM setup
-Adding a Windows 10 Wazuh agent to monitor endpoints
+1. Installing Elasticsearch to store and index logs
+2. Setting up Filebeat to ship logs from Wazuh to Elasticsearch
+3. Installing Kibana to visualize everything in one clean dashboard
+4. Deploying Wazuh as the core of your SIEM setup
+5. Adding a Windows 10 Wazuh agent to monitor endpoints
+   
 And along the way, we’ll also:
 
-Set up SSL certificates to secure communication
-Configure Elasticsearch passwords
-Install the Wazuh plugin for Kibana to take your dashboards up a notch
+1. Set up SSL certificates to secure communication
+2. Configure Elasticsearch passwords
+3. Install the Wazuh plugin for Kibana to take your dashboards up a notch
+
 This lab setup is perfect if you:
 
-Are learning cybersecurity or want to understand how a SIEM works
-Love building your own tools and environments to test stuff
-Work in a SOC and need a personal sandbox to explore
+1. Are learning cybersecurity or want to understand how a SIEM works
+2. Love building your own tools and environments to test stuff
+3. Work in a SOC and need a personal sandbox to explore
+   
 Let’s dive in!
 
 
