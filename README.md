@@ -147,6 +147,7 @@ cp /etc/elasticsearch/certs/elasticsearch.key /etc/filebeat/certs/filebeat.key &
 chown -R root:root /etc/filebeat/certs && \
 chmod -R 500 /etc/filebeat/certs && \
 chmod 400 /etc/filebeat/certs/filebeat.*
+ls -l /etc/filebeat/certs/ca/
 ```
 ```bash
 systemctl daemon-reload
