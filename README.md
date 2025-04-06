@@ -1,12 +1,29 @@
 # Step-by-Step Guide to Installing and Configuring ELK Stack with Wazuh on Ubuntu 22.04 in VMware Fusion
 
-**Deploying Wazuh Server and Adding an Agent**  
+Hi! My name is Reinaldi, and I’m passionate about IT security—especially when it comes to learning how security tools work under the hood.
 
-**Wazuh Version:** 4.2  
-**Wazuh Master:** Ubuntu 20  
-**Wazuh Agent:** Windows 10  
+This guide is my step-by-step journey to install and configure the ELK Stack (Elasticsearch, Filebeat, Kibana) along with Wazuh on Ubuntu 22.04, all running inside VMware Fusion. I’ll be using SSH from my MacBook to access the Ubuntu VM, so it’s all done remotely and cleanly.
 
-This guide provides step-by-step instructions for deploying Wazuh Server version 4.2 on an Ubuntu 20 system to monitor a Windows 10 agent.
+Whether you're building a home lab to dive deeper into SIEM, get hands-on with log analysis, or just love tinkering with cybersecurity tools—this guide is for you.
+
+Here’s what we’ll cover:
+
+Installing Elasticsearch to store and index logs
+Setting up Filebeat to ship logs from Wazuh to Elasticsearch
+Installing Kibana to visualize everything in one clean dashboard
+Deploying Wazuh as the core of your SIEM setup
+Adding a Windows 10 Wazuh agent to monitor endpoints
+And along the way, we’ll also:
+
+Set up SSL certificates to secure communication
+Configure Elasticsearch passwords
+Install the Wazuh plugin for Kibana to take your dashboards up a notch
+This lab setup is perfect if you:
+
+Are learning cybersecurity or want to understand how a SIEM works
+Love building your own tools and environments to test stuff
+Work in a SOC and need a personal sandbox to explore
+Let’s dive in!
 
 
 ---  
