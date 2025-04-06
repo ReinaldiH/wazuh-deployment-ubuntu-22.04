@@ -242,6 +242,8 @@ Use this command to verify that the services are up and listening on the right p
 lsof -i -N -P | grep LISTEN
 ```
 
+<img width="643" alt="Image" src="https://github.com/user-attachments/assets/2b5b87da-10ea-4e59-9592-80aafd68df93" />
+
 You should see Filebeat, Wazuh Manager, Kibana, and Elasticsearch in the list.
 
 ---
@@ -255,7 +257,15 @@ Use the default credentials:
 - **Username:** `elastic`  
 - **Password:** (the one you saved during the Elasticsearch setup earlier)
 
+<img width="992" alt="Image" src="https://github.com/user-attachments/assets/26872c84-9382-4a67-a7a3-e39802eb33a5" />
+
+
+<img width="1265" alt="Image" src="https://github.com/user-attachments/assets/de689f6a-8c12-4633-a42c-e6bf58613518" />
+
 Once logged in, you’ll land on the main dashboard.
+
+
+
 
 ---
 
