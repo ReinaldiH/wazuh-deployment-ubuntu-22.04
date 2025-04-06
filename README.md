@@ -228,5 +228,78 @@ systemctl status kibana
 
 <img width="517" alt="Image" src="https://github.com/user-attachments/assets/3d1ec7c6-5031-4a58-aea2-5adac26c9154" />
 
+---
 
+## ✅ After Everything’s Installed
+
+If you’ve followed all 18 steps without hitting any errors—awesome! 🎉 Now it’s time to double-check that everything is running properly.
+
+### 🔎 Check All Services
+
+Use this command to verify that the services are up and listening on the right ports:
+
+```bash
+lsof -i -N -P | grep LISTEN
+```
+
+You should see Filebeat, Wazuh Manager, Kibana, and Elasticsearch in the list.
+
+---
+
+## 🌐 Access Elasticsearch from Your Browser
+
+Next, open your browser (from Windows or any machine on the same network), and type in the IP address of your Wazuh server.
+
+Use the default credentials:
+
+- **Username:** `elastic`  
+- **Password:** (the one you saved during the Elasticsearch setup earlier)
+
+Once logged in, you’ll land on the main dashboard.
+
+---
+
+## ➕ Add a Wazuh Agent
+
+In the top-left corner of the dashboard, click the **alert icon (!)** and select **“Add agent”**.
+
+This will start the process of adding a new endpoint (aka Wazuh agent) to your setup.
+
+---
+
+## 🖥 Install the Wazuh Agent on Ubuntu Desktop
+
+Now let’s go back to the second Ubuntu VM (the one we prepped earlier as a Wazuh agent).  
+⚠️ Just a heads-up: running two Ubuntu VMs can be heavy, so make sure your system has enough RAM.
+
+If you don’t have Ubuntu Desktop yet, grab it here:  
+🔗 [Download Ubuntu Desktop](https://ubuntu.com/download/desktop)
+
+Once your Ubuntu Desktop agent VM is up and running, head back to the Wazuh web interface where you clicked "Add agent" earlier.
+
+---
+
+## 🛠 How to Fill Out the Agent Setup
+
+Follow these steps:
+
+1. Choose the agent type: **Ubuntu**
+2. Select the version: **Ubuntu 15+**
+3. Architecture: usually `x86_64` or `aarch64` (depends on your system)
+4. IP Address: enter the **IP address of the Wazuh server**, *not* the agent
+5. Name: give your agent a name (anything you like, e.g., `ubuntu-desktop-agent`)
+6. Group: leave it as **default**
+7. Copy the `curl` script shown and paste it into the terminal on your Ubuntu agent VM
+8. Then copy the second script and run it on the same machine
+
+---
+
+## 🔄 Back to Wazuh Web – Refresh!
+
+Once you've run both scripts, go back to the Wazuh web interface and **refresh the page**.  
+If everything went well, your agent should now appear and be connected ✅
+
+---
+
+## 🎉 Done!
 
