@@ -12,7 +12,6 @@ Here’s what we’ll cover:
 2. Setting up Filebeat to ship logs from Wazuh to Elasticsearch
 3. Installing Kibana to visualize everything in one clean dashboard
 4. Deploying Wazuh as the core of your SIEM setup
-5. Adding a Windows 10 Wazuh agent to monitor endpoints
    
 And along the way, we’ll also:
 
